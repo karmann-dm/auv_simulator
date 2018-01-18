@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/shaders/auv_renderer">
+        <file>auv_renderer.frag</file>
+        <file>auv_renderer.vert</file>
+    </qresource>
+    <qresource prefix="/shaders/final_renderer">
+        <file>final_renderer.frag</file>
+        <file>final_renderer.vert</file>
+    </qresource>
+    <qresource prefix="/shaders/seabed_renderer">
+        <file>seabed_amplitudes.glsl</file>
+        <file>seabed_auto.frag</file>
+        <file>seabed_auto.vert</file>
+        <file>seabed_auto_ctess.glsl</file>
+        <file>seabed_auto_etess.glsl</file>
+        <file>seabed_beauty.frag</file>
+        <file>seabed_cellular.glsl</file>
+        <file>seabed_depth.frag</file>
+        <file>seabed_depth_ctess.glsl</file>
+        <file>seabed_depth_etess.glsl</file>
+        <file>seabed_manual.vert</file>
+        <file>seabed_noise.glsl</file>
+        <file>seabed_rocks.glsl</file>
+        <file>seabed_sand.glsl</file>
+        <file>seabed_stone.glsl</file>
+        <file>seabed_textures.glsl</file>
+        <file>seabed_ushells.glsl</file>
+    </qresource>
+    <qresource prefix="/shaders/plane_renderer">
+        <file>plane_renderer.frag</file>
+        <file>plane_renderer.vert</file>
+    </qresource>
+</RCC>
