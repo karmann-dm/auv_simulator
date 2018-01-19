@@ -1,0 +1,8 @@
+debug/
+release/
+.qmake.stash
+AUV.pro.user
+Makefile
+Makefile.Debug
+Makefile.Release
+*.dll

@@ -28,13 +28,19 @@ SOURCES += \
         renderwidget.cpp \
     simulator/base/simulatorobject.cpp \
     simulator/base/simulatorobjectfactory.cpp \
-    simulator/base/simulatorfileobject.cpp
+    simulator/base/simulatorfileobject.cpp \
+    simulator/base/simulatorshaderobject.cpp \
+    glslprogram.cpp
 
 HEADERS += \
         renderwidget.h \
     simulator/base/simulatorobject.h \
     simulator/base/simulatorobjectfactory.h \
-    simulator/base/simulatorfileobject.h
+    simulator/base/simulatorfileobject.h \
+    simulator/base/simulatorshaderobject.h \
+    glslprogram.h
 
 RESOURCES += \
     shaders.qrc
+
+LIBS += -lglew32 -lopengl32 -lglu32
